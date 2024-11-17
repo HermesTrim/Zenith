@@ -1,0 +1,230 @@
+/* Genel Ayarlar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    color: #333;
+}
+
+/* Başlık */
+header {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Ana Sayfa Kahraman Bölgesi */
+.hero {
+    text-align: center;
+    padding: 35% 10%;
+    background-image: url('restoran.jpg'); /* Restoran arka plan görselini buraya ekleyin */
+    background-size: cover;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 15px 0;
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #ff5733;
+    border: none;
+    cursor: pointer;
+}
+/* Hakkımızda Bölümü Stil Ayarları */
+.about-section {
+    font-weight: bold;
+    max-width: 800px; /* Genişliği sınırlamak */
+    margin: 40px auto; /* Ortalamak ve üst-alt boşluk eklemek */
+    padding: 20px; /* İç boşluk */
+    background-color: #fff; /* Beyaz arka plan */
+    border-radius: 8px; /* Yuvarlatılmış köşeler */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+}
+
+.about-section h2 {
+    font-size: 2em; /* Başlık boyutu */
+    color: #333; /* Başlık rengi */
+    text-align: center; /* Ortalamak */
+    margin-bottom: 20px; /* Başlık alt boşluğu */
+}
+
+.about-section p {
+    font-size: 1.1em; /* Paragraf yazı boyutu */
+    color: #555; /* Paragraf rengi */
+    line-height: 1.6; /* Satır arası boşluk */
+    margin-bottom: 15px; /* Paragraf alt boşluğu */
+    text-align: justify; /* Paragrafları iki yana yaslama */
+}
+/* Hakkımızda Bölümü Stil Ayarları */
+.about-section2 {
+    max-width: 800px; /* Genişliği sınırlamak */
+    margin: 40px auto; /* Ortalamak ve üst-alt boşluk eklemek */
+    padding: 20px; /* İç boşluk */
+    background-color: #fff; /* Beyaz arka plan */
+    border-radius: 8px; /* Yuvarlatılmış köşeler */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+}
+
+.about-section2 h2 {
+    font-size: 2em; /* Başlık boyutu */
+    color: #333; /* Başlık rengi */
+    text-align: center; /* Ortalamak */
+    margin-bottom: 20px; /* Başlık alt boşluğu */
+}
+
+.about-section2 p {
+    font-size: 1.1em; /* Paragraf yazı boyutu */
+    color: #555; /* Paragraf rengi */
+    line-height: 1.6; /* Satır arası boşluk */
+    margin-bottom: 15px; /* Paragraf alt boşluğu */
+    text-align: justify; /* Paragrafları iki yana yaslama */
+}
+header h1 a {
+    text-decoration: none; /* Alt çizgiyi kaldırır */
+    color: inherit; /* Başlık rengini kullanır */
+}
+/* Menü Bölümü */
+.menu-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.menu-section h2 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu-category {
+    margin-bottom: 30px;
+}
+
+.menu-category h3 {
+    font-size: 1.6em;
+    color: #555;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.menu-item h4 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.menu-item p {
+    font-size: 1em;
+    color: #777;
+    margin: 5px 0;
+}
+
+.menu-item span {
+    font-weight: bold;
+    color: #333;
+}
+/* Sepet Bölümü */
+.cart-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.cart-section h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#cart-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#cart-list li {
+    font-size: 1.1em;
+    color: #555;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-section button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.cart-section button:hover {
+    background-color: #555;
+}
+/* Sipariş Bölümü */
+.order-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.order-section h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#order-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#order-list li {
+    font-size: 1.1em;
+    color: #555;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
